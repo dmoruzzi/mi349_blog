@@ -8,15 +8,8 @@
 </head>
 <body>
     <h1 id="intro">About</h1>
-    <nav>
-        <ul>
-             <li><a href="index.html">Article Posts</a></li>
-             <li><a href="about.html">About Author</a></li>
-             <li><a href="contact.html">Contact Us</a></li>
-         </ul>
-     </nav>
      <main>
-     <img src="images/about/me.png" alt="An image of David Moruzzi" width="200" height="250">
+     <img src="images/about/me.png" id="dmoruzzi-profile-img" alt="An image of David Moruzzi" width="200" height="250">
      <p>Howdy! I am David Moruzzi, a student and employee at Michigan State University. My major is Media and Information and I have a minor in Information Technology and I am a Service Desk Technician for the College of Engineering. I am fascinated by computers. I believe computers are incredible devices that are able to do so much. Computers open the floodgates to so many new possibilities and I want to expand those possibilities as time goes on. Something I find great joy in is helping others achieve new possibilities. Some other oddities I have is a strange fascination with security authentication devices, such as automotive license plates, identification badges, and passports. An example of this is the fact that I know Maryland, Michigan, and Minnesota all share the same mathematical algorithm for their driver's license numbers which require your first, middle, and last name as with month and date of birth.</p><br>
      <p>Some other things that fascinate me and a random fact about them:</p>
      <ul>
@@ -24,7 +17,33 @@
          <li>License plates - all states except California, Connecticut, Kentucky, Maryland, New Hampshire, Ohio, and Pennsylvania have reflective holograms embedded to counteract duplication (<a href="https://multimedia.3m.com/mws/media/841379O/us-license-plate-reference-guide.pdf">Source</a>).</li>
          <li>Driver's license numbers - Maryland, Michigan, and Minnesota (prior to December 13, 2004) all used the same mathematical formula for calculating their license numbers (<a href="https://web.archive.org/web/20200819023557/http://www.highprogrammer.com/alan/numbers/dl_us_shared_mmm.html">Source</a>)</li> 
      </ul>
-     <footer>Copyright 2020 by <a href="about.html">David Moruzzi</a></footer>
     </main>
-    </body>
+
+    <div id="sidebar">
+        <!-- Navigation Sidebar -->
+        <nav>
+            <ul>
+                 <li><a href="index.html">Article Posts</a></li>
+                 <li><a href="about.html">About Author</a></li>
+                 <li><a href="contact.html">Contact Us</a></li>
+             </ul>
+         </nav>
+    
+        <!-- Fake Newsletter -->
+        <section>
+            <h3 id="subscribe">ITM311 Blog News Letter</h3>
+            <form>
+                <label>Sign up for our Newsletter:</label>
+                <input type="text">
+                <button>Subscribe</button>
+            </form>
+        </section>
+        </div>
+    
+
+    <!-- Website Footer & Copyright -->
+    <footer><p>Copyright 2020 by <a href="about.html">David Moruzzi</a></p></footer>
+
+
+</body>
 </html>
